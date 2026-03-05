@@ -37,6 +37,15 @@ namespace AssignmentOOP05
              * using: 1-Objects contain reference types that need to be duplicated 2-Shared references are not acceptable
             */
             #endregion
+
+            #region Q4
+            /*
+                Dev - Testing
+                QA - Testing 
+              explaination: e1.Title remains "Dev" because it was copied separately. Dept.Name becomes "Testing" for both objects because Dept is a shared reference to shallow copy.
+             
+             */
+            #endregion
             #endregion
 
         }
