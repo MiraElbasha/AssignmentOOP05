@@ -25,7 +25,19 @@ namespace AssignmentOOP05
 
             //No, you cannot call translator.Greet directly. Because when we use explicit interface implementation the methods are not accessible through the class itself.
             #endregion
-        #endregion
+
+            #region Q3  
+            /*A shallow copy creates a new object but copies the references of reference  type fields instead of creating new objects 
+             using : 1-Objects contain only value types 2-Shared references are acceptable
+
+            */
+
+
+            /*A deep copy creates a completely independent copy of the object and all objects it references which means A new object is created and All referenced objects are also duplicated
+             * using: 1-Objects contain reference types that need to be duplicated 2-Shared references are not acceptable
+            */
+            #endregion
+            #endregion
 
         }
     }
