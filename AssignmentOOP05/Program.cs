@@ -1,4 +1,6 @@
-﻿namespace AssignmentOOP05
+﻿using System.Security.AccessControl;
+
+namespace AssignmentOOP05
 {
     internal class Program
     {
@@ -15,7 +17,15 @@
               3- Better Maintainability : Changes to the implementation of an interface do not affect the classes that use it
             */
             #endregion
+
+            #region Q2
+            // both interfaces share the same implementation, which means the program cannot differentiate between English greeting and Arabic greeting.
+
+            //We fix it using Explicit Interface Implementation so Each interface method is implemented separately.
+
+            //No, you cannot call translator.Greet directly. Because when we use explicit interface implementation the methods are not accessible through the class itself.
             #endregion
+        #endregion
 
         }
     }
